@@ -1,0 +1,8 @@
+
+<!doctype html>
+<html><body>
+<h1>SentinelAI Dashboard</h1>
+{% for a in alerts %}
+<p>{{a.type}} | {{a.severity}} | {{a.score}}</p>
+{% endfor %}
+</body></html>
